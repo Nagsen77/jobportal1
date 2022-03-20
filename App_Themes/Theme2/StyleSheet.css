@@ -1,0 +1,138 @@
+﻿*{
+margin:0px;
+padding:0px;
+}
+img{border:0px}
+html
+{
+    width: 100%;
+    background-image: url('../../images/bg.gif');
+    background-position: left top;
+    background-repeat: repeat-x;
+}
+body{
+width:1000px;
+margin:0 auto;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+.meta
+{
+    color: #F5F5F5;
+    background-image: url('../../images/meta_bg.gif');
+    background-position: right top;
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 924px;
+    overflow: hidden;
+}
+.meta a{
+color:#92DF01;
+text-decoration:underline
+}
+.meta a:visited{text-decoration:underline}
+.meta a:hover{text-decoration:none}
+.meta p{
+display:block;
+float:right;
+line-height:18px;
+}
+.metalinks{
+height:23px;
+width:166px;
+margin:0 0 0 22px;
+padding:13px 0 0 0;
+float:right;
+text-align:center;
+}
+.metalinks a{
+margin:0 10px 0 7px
+}
+#header
+{
+position:relative;
+padding:0 0 0 32px;
+height:355px;
+width:892px;
+}
+.logo{
+float:left;
+}
+#menu{
+float:left;
+margin:0 0 10px 79px;
+}
+#menu li
+{
+    list-style-type: none;
+    display: block;
+    float: left;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 14px;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+#menu .last{
+background:none;
+}
+#menu a{
+font-size:12px;
+color:#272727;
+text-decoration:none;
+}
+#menu a:visited{text-decoration:none}
+#menu a:hover{text-decoration:underline}
+.Initial
+{
+    display: block;
+    padding:0 0 0 0;
+    float: left;
+    background: url('../../images/deselect.jpg') no-repeat right top;
+    color: Black;
+    font-weight: bold;
+}
+  .Initial:hover
+{
+    color: White;
+    background: url('../../images/select.jpg') no-repeat right top;
+}
+  .Clicked
+{
+    float: left;
+    display: block;
+    background: url('../../images/select.jpg') no-repeat right top;
+    padding: 4px 18px 4px 18px;
+    color: Black;
+    font-weight: bold;
+    color: White;
+}
+#footer
+{
+    width: 859px;
+    float:left;
+    margin-left: 70px;
+    display: inline;
+    background-image: url('../../images/footer_bg.gif');
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding-left: 0px;
+    text-align: center;
+}
+#footer a{
+color:#254A73;
+text-decoration:underline
+}
+#footer a:visited{text-decoration:underline}
+#footer a:hover{text-decoration:none}
+.inner_copy
+{
+    border: 0;
+    color: #fff;
+    float: right;
+    margin: -100px;
+    overflow: hidden;
+    line-height: 0px;
+    padding:0px;
+    font-size: 11px;
+}
