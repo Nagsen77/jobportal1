@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <div class="meta">
+		<div class="metalinks">
+			<a href="/HOME.aspx"><img src="../images/meta1.gif" alt="" width="15" height="14" /></a>
+			<a href="#"><img src="../images/meta3.gif" alt="" width="17" height="14" /></a>
+			<a href="#"><img src="../images/meta4.gif" alt="" width="15" height="14" /></a>
+		</div>
+        <p>For Employers:
+            <asp:HyperLink ID="HyperLink1" runat="server">Register Now...!!!!</asp:HyperLink>
+        <br />
+		<div class="inner_copy"></div>
+	</div>
+	<div id="header">
+		<a href="../HOME.aspx" class="logo"><img src="../images/toplogo1.jpg" alt="setalpm" 
+            style="height: 46px; width: 220px" /></a>
+		<ul id="menu">
+			<li><a href="../HOME.aspx">Home</a></li>
+			<li><a href="../JOB SEEKER/User_Registration.aspx">Submit Resume</a></li>
+            <li><a href="Aboutus.aspx">About Us</a></li>
+            <li class="last"><a href="../JOB SEEKER/User_Registration.aspx">Register</a></li>
+        </ul></div>
+        <br /><br /><br />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server" />
+        
+        
+        <br />
+    <div id="footer">
+	</div>
+    </form>
+</body>
+</html>

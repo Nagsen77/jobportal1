@@ -1,0 +1,1 @@
+insert into Admin_login values('ankita','ankita@1','ankitapalkar2013@gmail.com')
